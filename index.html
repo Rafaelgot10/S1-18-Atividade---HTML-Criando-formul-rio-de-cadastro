@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formúlario para Enviar</title>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Digite seu nome aqui..." name="nome" id="nome"required=true/><br>
+
+        <label for="email">Email</label>
+        <input type="text" placeholder="Digite seu email aqui..." name="email" id="email"required/><br>
+
+        <label for="descrição">Descrição</label>
+        <textarea placeholder="Fale mais sobre você aqui..." name="descrição" id="descrição"cols="30" rows="10"></textarea><br>
+
+        <label for="módulo">Módulo</label>
+        <select id="módulos">
+            <option>Selecionar o Módulo</option>
+            <option>M1</option>
+            <option>M2</option>
+            <option>M3</option>
+            <option>M4</option>
+            <option>M5</option>
+            <option>M6</option>
+        </select><br>
+
+        <label for="senha">Senha</label>
+        <input type="password" placeholder="Digite sua senha aqui..." name="senha" id="senha" required><br>
+
+        <label for="senha confirmada">Confirmar Senha</label>
+        <input type="password" placeholder="Digite sua senha novamente aqui..." name="senha confirmada" id="senha confirmada" required><br>
+
+        <p>Deseja receber novidades em seu email?</p>
+
+        <label for="sim">sim</label>
+        <input type="radio" name="módulo" id="sim">
+        <label for="não">não</label>
+        <input type="radio" name="módulo" id="não">
+
+        <button type="submit">Enviar</button>
+    </form>
+    
+
+</body>
+</html>
